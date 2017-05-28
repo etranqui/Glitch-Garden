@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: d2e1c36ae7b81254c87bdfdd9a6872ab
+timeCreated: 1487002473
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PM_Nose
+    21300002: PM_Head
+    21300004: PM_Mustach
+    21300006: PM_Eye
+    21300008: PM_Ear
+    21300010: PM_BackArm
+    21300012: PM_Body
+    21300014: PM_FrontArm
+    21300016: PM_FrontHand
+    21300018: PM_BackHand
+    21300020: PM_Hat
+    21300022: PM_Foot
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PM_Nose
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 313
+        width: 49
+        height: 42
+      alignment: 9
+      pivot: {x: 0.7300946, y: 0.4701727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PM_Head
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 297
+        width: 96
+        height: 88
+      alignment: 9
+      pivot: {x: 0.48695055, y: 0.14410852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PM_Mustach
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 352
+        width: 61
+        height: 39
+      alignment: 9
+      pivot: {x: 0.45892635, y: 0.5963643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PM_Eye
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 323
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PM_Ear
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 288
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.082419984, y: 0.38069153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PM_BackArm
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 181
+        width: 54
+        height: 63
+      alignment: 9
+      pivot: {x: 0.87118137, y: 0.8976942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PM_Body
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 147
+        width: 96
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24375811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PM_FrontArm
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 156
+        width: 42
+        height: 75
+      alignment: 9
+      pivot: {x: 0.20172882, y: 0.90087587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PM_FrontHand
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 155
+        width: 61
+        height: 64
+      alignment: 9
+      pivot: {x: 0.54107314, y: 0.813184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PM_BackHand
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 103
+        width: 56
+        height: 74
+      alignment: 9
+      pivot: {x: 0.56711096, y: 0.8555065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PM_Hat
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 14
+        width: 151
+        height: 105
+      alignment: 9
+      pivot: {x: 0.67422163, y: 0.38069153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PM_Foot
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 43
+        width: 65
+        height: 48
+      alignment: 9
+      pivot: {x: 0.6541828, y: 0.83928317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
