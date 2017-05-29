@@ -20,7 +20,7 @@ public class FoxBehaviour : MonoBehaviour {
 		
 	}
 
-    void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter2D(Collider2D col)
     {
         GameObject obj = col.gameObject;
 

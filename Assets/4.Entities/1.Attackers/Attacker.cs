@@ -37,7 +37,6 @@ public class Attacker : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log(name + " On TriggerEnter");
         currentTarget = col.gameObject;
     }
 
@@ -51,18 +50,21 @@ public class Attacker : MonoBehaviour {
     // Called from the Animator
     public void DamageCurrentTarget(float damage)
     {
-        Debug.Log(name + " inflicts " + damage + " damage.");
-
+        
         // Inflict damage to currentTarget
         if (currentTarget)
         {
             Health health = currentTarget.GetComponent<Health>();
 
             if (health)
+            {
                 health.DealDamage(damage);
+                Debug.Log(name + " inflicts " + damage + " damage" + "to " + currentTarget.name + ".");
+            }
         }
     }
 
 
+    
 
 }

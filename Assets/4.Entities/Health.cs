@@ -10,6 +10,7 @@ public class Health : MonoBehaviour {
 	public void DealDamage(float damage)
     {
         HP -= damage;
+        Debug.Log(name + "takes " + damage + " damage ");
        
         if (HP <= 0)
         {

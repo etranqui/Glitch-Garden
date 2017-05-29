@@ -17,8 +17,7 @@ public class Shooter : MonoBehaviour {
     {
         GameObject newProjectile = Instantiate(projectilePrefab) as GameObject;
         newProjectile.transform.parent = projectileParent.transform;
-        newProjectile.transform.position = projectileSpawn.transform.position;
-        Debug.Log(name + " firing.");    
+        newProjectile.transform.position = projectileSpawn.transform.position;    
     }
 
  
