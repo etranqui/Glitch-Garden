@@ -6,6 +6,9 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Attacker : MonoBehaviour {
 
+    [Tooltip("Average time in seconds between Spawn")]
+    public float spawnRate;
+
     private float currentSpeed;
     private GameObject currentTarget;
    
@@ -18,6 +21,7 @@ public class Attacker : MonoBehaviour {
         component.isKinematic = true;
 
         animComponent = gameObject.GetComponent<Animator>();
+
 	}
 	
 	// Update is called once per frame
