@@ -4,7 +4,18 @@ using UnityEngine;
 
 public class Defender : MonoBehaviour {
 
-    // Currently only used to tag Defenders
+    private StarDisplay starDisplay;
+    [Range(0,1000)]
+    public int cost;
 
+    void Start ()
+    {
+        starDisplay = GameObject.FindObjectOfType<StarDisplay>();
+    }
+
+    private void AddStarCoins(int amount)
+    {
+        starDisplay.AddStars(amount);
+    }
 	
 }

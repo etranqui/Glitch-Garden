@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour {
 
-    private GameObject defenderParent;
+    private GameObject defenderParent; 
+    private StarDisplay starDisplay;
 
 	// Use this for initialization
 	void Start () {
 
+        // Get Defender parent empty GO
         defenderParent = GameObject.Find("DefendersParent");
-
         if (defenderParent == null)
         {
             defenderParent = new GameObject("DefendersParent");
         }
+
+        // Get Star Display Score reference
+        starDisplay = GameObject.FindObjectOfType<StarDisplay>();
 	}
 	
 	// Update is called once per frame
@@ -24,9 +28,22 @@ public class DefenderSpawner : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        Vector2 pos = SnapToGrid(Camera.main.ScreenToWorldPoint(Input.mousePosition));
-        if (Button.selectedDefender)
-            Instantiate(Button.selectedDefender, pos, Quaternion.identity, defenderParent.transform);
+
+        Defender defender = Button.selectedDefender.GetComponent<Defender>();
+        if (starDisplay.UseStars(defender.cost) == StarDisplay.Status.SUCCESS)
+        {
+
+            // Determine mouse position in world unit
+            Vector2 pos = SnapToGrid(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+
+            // Instanciate Tower
+            if (Button.selectedDefender)
+                Instantiate(Button.selectedDefender, pos, Quaternion.identity, defenderParent.transform);
+        }
+        else
+        {
+            Debug.Log("Insufficient Stars...");
+        }
         
     }
 
