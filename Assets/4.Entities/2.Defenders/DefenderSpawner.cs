@@ -28,6 +28,9 @@ public class DefenderSpawner : MonoBehaviour {
 
     private void OnMouseDown()
     {
+        if (!Button.selectedDefender)
+            return;
+
 
         Defender defender = Button.selectedDefender.GetComponent<Defender>();
         if (starDisplay.UseStars(defender.cost) == StarDisplay.Status.SUCCESS)

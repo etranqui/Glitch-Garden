@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class StarDisplay : MonoBehaviour {
 
     private Text textComponent;
+    [SerializeField]
     private int starAmount = 100;
     public enum Status {SUCCESS, FAILURE};
 

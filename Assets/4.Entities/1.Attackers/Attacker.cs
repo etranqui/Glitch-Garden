@@ -41,7 +41,11 @@ public class Attacker : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        currentTarget = col.gameObject;
+        Defender defender = col.gameObject.GetComponent<Defender>();
+        if (defender)
+        {
+            currentTarget = col.gameObject;
+        }
     }
 
 
